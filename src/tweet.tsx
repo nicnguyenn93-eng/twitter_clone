@@ -20,8 +20,8 @@ function Tweet({ username, content, likes, timestamp }) {
         <div className="tweet">
             <h3>@{username}</h3>
             <p>{content}</p>
-            <p>{timestamp}</p>
-            <button onClick={handleLike}>{liked ? '❤️' : '🤍'}{likeCount}</button>
+            <p style = {{fontSize: '14px'}}>{timestamp} ago</p>
+            <button onClick={handleLike}>{liked ? '❤️' : '🤍'} {likeCount} Likes</button>
         </div>
     )
 
