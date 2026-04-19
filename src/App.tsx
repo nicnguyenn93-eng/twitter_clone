@@ -13,7 +13,7 @@ function App() {
          {tweetsData.map(tweet => (
           <Tweet
             key={tweet.id}
-            username={tweet.username}s
+            username={tweet.username}
             content={tweet.content}
             likes={tweet.likes}
             timestamp={tweet.timestamp}
